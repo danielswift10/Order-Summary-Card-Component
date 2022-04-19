@@ -8,7 +8,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Design preview for the Order Summary Card Component coding challenge](./swift-order-summary-component.png)
+![Design preview for the Order Summary Card Component coding challenge](./swift-order-summary-card-component.png)
 
 ### Links
 
