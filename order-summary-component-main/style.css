@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: 1440px 350px;
+}
+
+@media only screen and (max-width: 570px) {
+    main{
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: 550px 170px;
+    }
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: white;
+    border-radius: 18px;
+    max-width: 400px;
+}
+
+.pattern-background{
+    background-image: url("images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 190px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;   
+}
+
+.inner-card{
+    margin: 30px 40px 23px 40px;
+    padding-bottom: 17px;
+}
+
+.inner-card-1{
+    padding: 8px 2px 0px 2px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+
+p{
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 16px 7px 0 7px;
+    line-height: 1.4rem;
+}
+
+.inner-card-2{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+    padding: 20px 20px;
+    
+}
+
+img{
+    border-radius: 50%;
+}
+
+.plan{
+    width: 150px;
+    float: left;
+    margin-top: -50px;
+    margin-left: 61px;
+    line-height: 1.5625rem;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 0.875rem;
+    color: hsl(223, 47%, 23%);
+    float: left;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: hsl(220, 15%, 55%);
+    float: left;
+}
+
+.link-change a{
+    float: right;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    margin-top: -33px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.link-change a:hover{
+    color: hsl(220, 15%, 55%);
+    text-decoration: none;
+}
+
+.payment-button{
+    background-color: hsl(245, 75%, 52%); 
+    border: 0.1px solid transparent;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    margin-bottom: 18px;
+    width: 100%;
+    box-shadow: 0px 20px 23px hsl(226, 33%, 90%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.payment-button:hover{
+    background-color: hsl(224, 23%, 55%);
+    border: 0.1px solid transparent;
+    cursor: pointer;
+}
+
+.link-cancel {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.link-cancel a{
+    color: hsl(220, 15%, 55%);
+    font-weight: 900;
+    font-size: 0.875rem;
+}
+
+.link-cancel a:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution{ 
+    font-size: 0.6875rem;
+    text-align: center; 
+}
